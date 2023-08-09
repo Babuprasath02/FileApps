@@ -1,0 +1,29 @@
+Selectors:
+	Name - It selects all elements that match with the given element name.
+	#ID  - It selects a single element that matches with the given id.
+	.Class - It selects a all elements that matches with the given class.
+	Universal(*) - It selects all elements available in DOM.
+
+jQuery Effects:
+	jQuery enables us to add effects on a web page.
+	hide() - hide() method is used to hide the selected elements
+	show() - show() method is used to show the selected elements.
+	toggle() - toggle() is a special type of method which is used to toggle between the hide() and show() method. 
+		     It shows the hidden elements and hides the shown element.
+	fadeIn() - fadeIn() method is used to fade in the element.
+	fadeOut() - fadeOut() method is used to fade out the element.
+	fadeToggle() -  fadeToggle() method is used to toggle between the fadeIn() and fadeOut() methods. 
+			    If the elements are faded in, it will make them faded out and if they are faded out it will make them faded in.
+	fadeTo() - fadeTo() method is used to fading to a given opacity.
+	slideDown() -  slideDown() method is used to slide down an element.
+	slideUp() -  slideDown() method is used to slide up an element.
+	slideToggle() - slideToggle () method is used to toggle between slideUp() and slideDown() method. 
+			    If the element is slide down, it will slide up the element and if it is slide up, it will slide down.
+	animate() - animate() method provides you a way to create custom animations.
+	delay() - delay() method is used to delay the execution of functions in the queue. It is a best method to make a delay between the queued jQuery effects. 
+		   The jQUery delay () method sets a timer to delay the execution of the next item in the queue.
+
+JQuery Html/Css:
+	html() - html() method is used to change the entire content of the selected elements. 
+		   It replaces the selected element content with new contents.
+	text() - text() method is used to set or return the text content of the selected elements.
