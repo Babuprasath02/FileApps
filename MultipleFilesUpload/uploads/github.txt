@@ -1,0 +1,53 @@
+git config --global user.name "githubusername"
+git config --global user.email "githubemail"
+git clone githuppageurl 
+git add filename(modify)
+git status
+git commit -m "message"
+git push orgin main
+U -> untracked files
+Once you delete the file in local how to modify in main branch?
+git add deletedfilename
+git commit -m "message"
+git push orgin main
+
+when you create a file in main branch how to pull that file in you local?
+git pull
+
+how to convert your local folder into git repository?
+git init
+git add .
+create new repository for new folder same name as local folder name
+git remote add orgin url
+
+git branch - check the branch name
+git branch -M name of the branch - change the branch name
+
+git branch -a - check what are branches are available in current repository
+
+when you create a new branch in your repository then how to switch new branch?
+create new branch -> click main cretate new branch
+git checkout branchname
+after add files in your new branch
+git push orgin newbranchname
+
+how to find the difference between main and subbranch?
+git checkout subbranch
+git checkout main
+git diff subbranch
+
+how to merge subbranch into main branch?
+git checkout main
+git merge subbranch
+git push orgin main
+
+How to create new branch in local and pull request?
+git branch newbranchname
+git checkout newbranchname
+create new file
+git add .
+git commit -m "message"
+git push orgin newbranchname
+here don't need to merge create pull request
+
+pull request -> create pull request

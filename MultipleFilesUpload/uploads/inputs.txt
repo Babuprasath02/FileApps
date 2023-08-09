@@ -1,0 +1,55 @@
+{
+   "questiontitle":"which one is used for indentation in Python?",
+   "option1":":",
+   "option2":";",
+   "option3":"{}",
+   "option4":"[]",
+   "rightanswer":":",
+   "difficultylevel":"Easy",
+   "category":"Python"
+ 
+    }
+
+@OneToMany
+
+{
+       "name":"Babu Prasath",
+       "department":"Computer Science",
+       "book":[{
+           "bookname":"Java",
+           "serialnumber":"31255"
+
+       },{
+           "bookname":"C Programming",
+           "serialnumber":"31256"
+       }
+       ]
+}
+
+@OnetoOne
+{
+       "firstName":"Neer",
+       "lastName":"Kathalingam",
+       "email":"nk@gmail.com",
+       "instructorDetail":{
+           "designation":"JDeveloper",
+           "salary":15986
+       }
+    }
+
+@ManyToOne
+{
+       "name":"NeerKaathalingam",
+       "designation":"JDeveloper",
+       "salary":15986,
+       "presentaddress":{
+           "streetname":"RajaPalayam",
+           "district":"Virudhunagar",
+           "state":"TamilNadu"
+       },
+        "permanentaddress":{
+           "streetname":"Kaalappatti",
+           "district":"Coimbatore",
+           "state":"TamilNadu"
+       }
+    }

@@ -1,0 +1,43 @@
+C:\Users\babuprasath.b\eclipse-workspace
+C:\Users\babuprasath.b\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE
+
+Constructor:
+		A Constructor is a block code similar to a method that's called when an instance of an object is created.
+		A Constructor doesn't have a return type.  The name of the constructor same as the name of a class.
+		Unlike methods constructors are not consider members of a class.
+		A Constructor called automatically when a new instance of an object is created.
+
+Dependency Injection:
+		Avoids Tight Coupling
+		Using @Component, @Autowired
+
+HttpResponse:
+	Informational responses(100-199)
+	Successful responses(200-299)
+	Redirection message(300-399)
+	Client error responses(400-499)
+	Server error responses(500-599)
+
+Thymeleaf - It is a server-side Java template engine for both web (servlet-based) and non-web (offline) environments.
+	    It is perfect for modern-day HTML5 JVM web development. 
+	    It provides full integration with Spring Framework.
+
+Spring Security:
+Authorization - Authentication is the process of knowing and identifying the user that wants to access.
+
+Interceptor - You can use the Interceptor in Spring Boot to perform operations under the following situations −
+
+	Before sending the request to the controller
+
+	Before sending the response to the client
+
+For example, you can use an interceptor to add the request header before sending the request to the controller and add the response header before sending the response to the client.
+
+To work with interceptor, you need to create @Component class that supports it and it should implement the HandlerInterceptor interface.
+
+DI	- The dependencies are handle the objects when it's created.
+
+
+
+
+				
